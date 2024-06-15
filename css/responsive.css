@@ -1,0 +1,804 @@
+@media screen and (max-width: 1320px) {
+  footer .very-bottom .container {
+    padding: 24px;
+  }
+  .main-page header .container {
+    padding: 0 60px;
+  }
+  .main-page header nav .container {
+    padding: 0 60px;
+  }
+  .main-page header .intro h2 {
+    font-size: 54px;
+  }
+  .main-page header .intro p {
+    font-size: 20px;
+  }
+  .main-page header .photo {
+    padding-right: 30px;
+  }
+  .main-page main .container {
+    padding: 0 60px;
+  }
+  .main-page main .case .project-preview a {
+    background-size: auto 75%;
+  }
+  .case-page header .container {
+    padding: 0 60px;
+  }
+  .case-page .case.problem .container .case-row {
+    margin-bottom: 24px;
+  }
+  .case-page .case-page-preview > .container {
+    padding: 40px 60px 56px;
+  }
+  .case-page .case .container {
+    padding: 100px 60px;
+  }
+  .case-page .case .container .case-single-row p {
+    width: 55%;
+    max-width: 85%;
+  }
+  .case-page .case .container .case-row .right {
+    width: 50%;
+  }
+  .case-page .case .container .case-row .right .popup {
+    width: 70%;
+  }
+  .case-page .case .container .case-row .left {
+    width: 45%;
+  }
+  .case-page footer .discover-more .container {
+    padding: 100px 60px;
+  }
+}
+@media screen and (max-width: 1025px) {
+  footer .very-bottom .container {
+    padding: 18px;
+    font-size: 14px;
+  }
+  .main-page header .container {
+    padding: 0 40px;
+  }
+  .main-page header .photo .portrait-line {
+    zoom: 0.8;
+  }
+  .main-page header nav .container {
+    padding: 0 40px;
+  }
+  .main-page header .intro {
+    min-height: 360px;
+  }
+  .main-page header .intro h2 {
+    font-size: 42px;
+  }
+  .main-page header .intro p {
+    font-size: 16px;
+  }
+  .main-page header .photo {
+    padding-right: 20px;
+  }
+  .main-page main .container {
+    padding: 0 40px;
+  }
+  .main-page main .case {
+    padding: 80px 0;
+  }
+  .main-page main .case .project-intro {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-height: 100%;
+    width: 46%;
+  }
+  .main-page main .case h3 {
+    font-size: 22px;
+  }
+  .main-page main .case p {
+    font-size: 15px;
+  }
+  .main-page main .case .chips {
+    width: 100%;
+  }
+  .main-page main .case .chips span {
+    padding: 2px 8px;
+    margin: 0 6px 6px 0;
+    font-size: 14px;
+  }
+  .main-page main .case .btn {
+    padding: 8px 14px;
+    font-size: 16px;
+  }
+  .main-page main .case .project-preview {
+    width: 50%;
+    height: 290px;
+  }
+  .main-page main .case .project-preview a {
+    background-size: auto 70%;
+  }
+  .main-page main .case .project-preview .arrow {
+    right: 24px;
+    top: 24px;
+  }
+  .main-page main .case .project-preview .arrow img {
+    width: 32px;
+    height: 32px;
+  }
+  .case-page header .container {
+    padding: 0 40px;
+  }
+  .case-page .case-page-preview h1 {
+    font-size: 56px;
+  }
+  .case-page .case-page-preview .breadcrumbs-wrapper {
+    margin-bottom: 24px;
+  }
+  .case-page .case-page-preview .preview-images img {
+    zoom: 0.4;
+  }
+  .case-page .case-page-preview .wrapper {
+    height: 620px;
+  }
+  .case-page .case-page-preview .case-single-row p {
+    max-width: 70%;
+  }
+  .case-page .case-page-preview .container {
+    padding: 40px 40px;
+  }
+  .case-page .case .container {
+    padding: 80px 40px;
+  }
+  .case-page .case .container h4 {
+    margin-top: 0;
+  }
+  .case-page .case .container .case-row .right.image-container .popup-content .description p {
+    font-size: 14px;
+  }
+  .case-page .case .container p,
+  .case-page .case .container .case-single-row p,
+  .case-page .case .case.problem .container ul {
+    font-size: 15px;
+  }
+  .case-page .case .container .case-single-row p {
+    width: 65%;
+  }
+  .case-page .case .full-w-banner.videos .right,
+  .case-page .case .full-w-banner.videos .left {
+    padding: 60px 24px;
+  }
+  .case-page .case .full-w-banner.videos .media-content {
+    max-width: 80%;
+  }
+  .case-page footer .discover-more .container {
+    padding: 80px 60px;
+  }
+  .case-page footer .container h3 {
+    font-size: 28px;
+    margin: 0 0 48px 0;
+  }
+  .case-page footer .container .wrapper .card {
+    height: 260px;
+  }
+  .case-page footer .container .wrapper .card a {
+    background-size: auto 70%;
+  }
+  .case-page footer .container .wrapper .card .name {
+    bottom: 20px;
+    left: 24px;
+  }
+  .case-page footer .container .wrapper .card .arrow {
+    right: 20px;
+    top: 20px;
+  }
+  .case-page footer .very-bottom .container p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .main-page header .photo .portrait-line {
+    zoom: 0.9;
+    margin-top: 30px;
+  }
+  .main-page header .navbar .logo {
+    font-size: 18px;
+    text-wrap: nowrap;
+  }
+  .main-page header .navbar ul li a {
+    margin: 0 0 0 24px;
+    font-size: 16px;
+  }
+  .main-page header .navbar ul li:nth-last-child(2) a {
+    margin: 0;
+  }
+  .main-page header .hero {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .main-page header .intro {
+    min-height: auto;
+    text-align: center;
+    align-items: center;
+  }
+  .main-page header .intro h2 {
+    font-size: 48px;
+  }
+  .main-page header .intro p {
+    font-size: 18px;
+  }
+  .main-page header .photo {
+    padding-right: 20px;
+  }
+  .main-page main .case {
+    flex-direction: column-reverse;
+  }
+  .main-page main .case .project-intro {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-height: auto;
+    width: 100%;
+  }
+  .main-page main .case .project-intro > div {
+    max-width: 78%;
+  }
+  .main-page main .case h3 {
+    font-size: 22px;
+  }
+  .main-page main .case p {
+    font-size: 15px;
+  }
+  .main-page main .case .btn {
+    min-width: 102px;
+    margin-right: 0;
+    width: 200px;
+    margin-top: 24px;
+    text-align: center;
+  }
+  .main-page main .case .chips {
+    margin-top: 12px;
+  }
+  .main-page main .case .project-preview {
+    width: 100%;
+    height: 320px;
+    margin-bottom: 30px;
+  }
+  .main-page main .case .project-preview a {
+    background-size: auto 85%;
+  }
+  .main-page .case .btn.btn-swipe:hover {
+    box-shadow: inset 200px 0 0 0 #111111;
+    color: #fff;
+  }
+  .case-page header .navbar .logo {
+    font-size: 18px;
+    text-wrap: nowrap;
+  }
+  .case-page header .navbar ul li a {
+    margin: 0 0 0 24px;
+    font-size: 16px;
+  }
+  .case-page header .navbar ul li:nth-last-child(2) a {
+    margin: 0;
+  }
+  .case-page .case-page-preview .wrapper {
+    height: 520px;
+  }
+  .case-page .case-page-preview h1 {
+    font-size: 48px;
+  }
+  .case-page .case-page-preview .breadcrumbs-wrapper {
+    margin-bottom: 16px;
+  }
+  .case-page .case-page-preview .preview-images img {
+    zoom: 1;
+    width: 25%;
+  }
+  .case-page .case-page-preview .preview-images img.center-img {
+    width: 30%;
+  }
+  .case-page .case .container p,
+  .case-page .case .container .case-single-row p, .case-page.problem .container ul {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  .case-page .case .container h3 {
+    margin-bottom: 40px;
+  }
+  .case-page .case .container .case-row {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .case-page .case .container .case-row .left {
+    width: 80%;
+    margin-bottom: 32px;
+  }
+  .case-page .case .container .case-row .right {
+    width: 100%;
+    pointer-events: none;
+  }
+  .case-page .case .container .case-row .wireframes-wrapper img {
+    max-width: 240px;
+    margin-right: 6%;
+  }
+  .case-page .case .container .case-row.character-moodboard {
+    margin-bottom: 32px;
+  }
+  .case-page .case .container .case-single-row {
+    margin-bottom: 48px;
+  }
+  .case-page .case .container .case-single-row p {
+    width: 80%;
+  }
+  .case-page .case .container .case-single-row.text-only {
+    margin-bottom: 40px;
+  }
+  .case-page .case .container .case-single-row.text-only p:nth-last-child(1) {
+    margin-bottom: 0;
+  }
+  .case-page .case .container.final-design {
+    padding-bottom: 32px;
+    padding-top: 48px;
+  }
+  .case-page .case .container.character-uikit {
+    padding-bottom: 32px;
+  }
+  .case-page .case .container.o-r-d-l {
+    padding-bottom: 32px;
+    padding-top: 48px;
+  }
+  .case-page .case .container.o-r-d-l .case-row {
+    margin-bottom: 48px;
+  }
+  .case-page .case .container.o-r-d-l .text-only {
+    padding-top: 8px;
+  }
+  .case-page .case.problem .container .case-row {
+    margin-bottom: 48px;
+  }
+  .case-page .case.problem .container .case-row.target-aud {
+    margin-bottom: 0;
+  }
+  .case-page .case.research .container .case-single-row p {
+    max-width: 80%;
+  }
+  .case-page .case .full-w-banner.videos .media-content {
+    max-width: 80%;
+  }
+  .case-page .case.visual .full-w-banner.admin {
+    padding-bottom: 32px;
+  }
+  .case-page footer .container .wrapper {
+    flex-direction: column;
+  }
+  .case-page footer .container .wrapper .card {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  .case-page footer .container .wrapper .card:nth-last-child(1) {
+    margin-bottom: 0;
+  }
+  .case-page footer .container .wrapper .card.more-innovibe {
+    margin-right: 0px;
+  }
+  .case-page footer .container .wrapper .card.more-superdeck {
+    margin-left: 0px;
+  }
+  .case-page footer .container .wrapper .card .overlay {
+    height: 300px;
+  }
+  .case-page footer .container .wrapper .card .overlay:hover {
+    background: transparent;
+  }
+  .case-page footer .container .wrapper .card:hover .user-content {
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+  }
+  .case-page footer .container .wrapper .card .user-content {
+    opacity: 1;
+    display: none;
+  }
+  .case-page footer .container .wrapper .card .user-content.show-on-mobile {
+    display: block;
+    background: white;
+  }
+  .case-page footer .container .wrapper .card .user-content.show-on-mobile a {
+    background-size: auto;
+    background-image: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+    background-position: 0;
+    background-repeat: no-repeat;
+  }
+  .case-page footer .container .wrapper .card .user-content.show-on-mobile .name {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 20px 0;
+    cursor: pointer;
+  }
+  .case-page footer .container .wrapper .card .user-content.show-on-mobile .name h3 {
+    color: #111111;
+  }
+  .case-page footer .container .wrapper .card .user-content.show-on-mobile .name p {
+    color: #5d5d65;
+  }
+  .case-page footer .container .wrapper .card .user-content.show-on-mobile svg.arrow {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    right: 0;
+    top: 12px;
+    stroke: #111111;
+  }
+}
+@media screen and (max-width: 560px) {
+  .main-page header .container {
+    padding: 0 24px;
+  }
+  .main-page header .photo .portrait-line {
+    zoom: 0.8;
+    margin-top: 16px;
+  }
+  .main-page header nav .container {
+    padding: 0 24px;
+  }
+  .main-page header .navbar {
+    padding: 16px 0;
+  }
+  .main-page header .navbar .logo {
+    font-size: 18px;
+    text-wrap: nowrap;
+  }
+  .main-page header .navbar .logo span {
+    display: none;
+  }
+  .main-page header .navbar .logo::before {
+    display: none;
+  }
+  .main-page header .navbar ul li a {
+    margin: 0 0 0 18px;
+  }
+  .main-page header .navbar ul li:nth-last-child(2) a {
+    margin: 0;
+  }
+  .main-page header .hero {
+    padding: 32px 0;
+  }
+  .main-page header .intro h2 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .main-page header .intro p {
+    font-size: 16px;
+  }
+  .main-page header .photo {
+    padding-right: 0;
+  }
+  .main-page main .container {
+    padding: 0 24px;
+  }
+  .main-page main .case {
+    padding: 64px 0;
+  }
+  .main-page main .case .project-intro {
+    flex-flow: column;
+  }
+  .main-page main .case .project-intro > div {
+    max-width: 100%;
+  }
+  .main-page main .case h3 {
+    font-size: 24px;
+  }
+  .main-page main .case p {
+    font-size: 16px;
+  }
+  .main-page main .case .btn {
+    min-width: 102px;
+    margin-top: 16px;
+  }
+  .main-page main .case .project-preview {
+    height: 260px;
+    margin-bottom: 24px;
+  }
+  .main-page main .case .project-preview a {
+    background-size: auto 70%;
+    pointer-events: none;
+  }
+  .case-page header nav .container {
+    padding: 0 24px;
+  }
+  .case-page header .navbar {
+    padding: 16px 0;
+  }
+  .case-page header .navbar .logo {
+    font-size: 18px;
+    text-wrap: nowrap;
+  }
+  .case-page header .navbar .logo span {
+    display: none;
+  }
+  .case-page header .navbar .logo::before {
+    display: none;
+  }
+  .case-page header .navbar ul li a {
+    margin: 0 0 0 18px;
+  }
+  .case-page header .navbar ul li:nth-last-child(2) a {
+    margin: 0;
+  }
+  .case-page .case-page-preview .preview-images {
+    position: relative;
+  }
+  .case-page .case-page-preview .preview-images img.center-img {
+    width: 38%;
+  }
+  .case-page .case-page-preview .preview-images img {
+    width: 31%;
+    position: absolute;
+  }
+  .case-page .case-page-preview .preview-images img:nth-last-child(1) {
+    right: -10%;
+  }
+  .case-page .case-page-preview .preview-images img:nth-child(1) {
+    left: -10%;
+  }
+  .case-page .case-page-preview .container {
+    padding: 24px 24px;
+  }
+  .case-page .case-page-preview h1 {
+    font-size: 40px;
+  }
+  .case-page .case-page-preview .breadcrumbs-wrapper {
+    margin-bottom: 8px;
+  }
+  .case-page .case-page-preview .wrapper {
+    height: 440px;
+  }
+  .case-page .case .container p,
+  .case-page .case .container .case-single-row p, .case-page.problem .container ul {
+    font-size: 15px;
+    margin-bottom: 12px;
+    width: 100%;
+    max-width: 100%;
+  }
+  .case-page .case .container {
+    padding: 48px 24px;
+  }
+  .case-page .case .container .case-row {
+    margin-bottom: 48px;
+  }
+  .case-page .case .container .case-row ul {
+    margin-bottom: 0;
+    padding-left: 24px;
+    font-size: 15px;
+  }
+  .case-page .case .container h3 {
+    margin-bottom: 24px;
+    font-size: 28px;
+  }
+  .case-page .case.problem .container .case-row ul {
+    margin-bottom: 0;
+    padding-left: 24px;
+    font-size: 15px;
+  }
+  .case-page .case.problem .container .case-row ul li {
+    margin-bottom: 6px;
+  }
+  .case-page .case.problem .container .case-row ul li:nth-last-child(1) {
+    margin-bottom: 0;
+  }
+  .case-page footer .container h3 {
+    margin: 0 0 32px 0;
+  }
+  .case-page footer .container .wrapper .card {
+    margin-bottom: 24px;
+  }
+  .case-page footer .container .wrapper .card .overlay {
+    height: 240px;
+  }
+  .case-page footer .container .wrapper .card .user-content.show-on-mobile .name {
+    padding: 12px 0;
+  }
+  .case-page footer .discover-more .container {
+    padding: 56px 24px;
+  }
+  .case-page .case.visual .full-w-banner {
+    flex-direction: column;
+  }
+  .case-page .case .full-w-banner.videos .right,
+  .case-page .case .full-w-banner.videos .left {
+    width: 100%;
+  }
+  .case-page .case .full-w-banner.videos .media-content {
+    max-width: 70%;
+  }
+  .case-page footer .container .wrapper .card .user-content.show-on-mobile svg.arrow {
+    top: 8px;
+  }
+  .case-page.gameblyo .case.overview .container .case-single-row {
+    margin-bottom: 32px;
+  }
+  .case-page.gameblyo .case.overview .container .case-single-row.link {
+    margin-bottom: 8px;
+    margin-top: 32px;
+  }
+}
+@media screen and (max-width: 431px) {
+  .main-page header .container {
+    padding: 0 20px;
+  }
+  .main-page header nav .container {
+    padding: 0 20px;
+  }
+  .main-page header .photo .portrait-line {
+    zoom: 0.8;
+    margin-top: 32px;
+  }
+  .main-page header .navbar {
+    padding: 16px 0;
+  }
+  .main-page header .navbar .logo {
+    font-size: 18px;
+    text-wrap: nowrap;
+  }
+  .main-page header .navbar .logo span {
+    display: none;
+  }
+  .main-page header .navbar .logo::before {
+    display: none;
+  }
+  .main-page header .navbar ul li a {
+    margin: 0 0 0 18px;
+  }
+  .main-page header .navbar ul li:nth-last-child(2) a {
+    margin: 0;
+  }
+  .main-page header .hero {
+    padding: 64px 0;
+  }
+  .main-page header .intro {
+    align-items: center;
+    text-align: center;
+  }
+  .main-page header .intro h2 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .main-page header .intro p {
+    font-size: 16px;
+    max-width: 100%;
+  }
+  .main-page header .photo {
+    padding-right: 0;
+  }
+  .main-page main .container {
+    padding: 0 20px;
+  }
+  .main-page main .case {
+    padding: 52px 0;
+  }
+  .main-page main .case .project-intro {
+    flex-flow: column;
+  }
+  .main-page main .case .project-intro > div {
+    max-width: 100%;
+  }
+  .main-page main .case h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  .main-page main .case p {
+    font-size: 16px;
+  }
+  .main-page main .case .btn {
+    min-width: 120px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 12px 14px;
+  }
+  .main-page main .case .btn.btn-swipe:hover {
+    box-shadow: inset 420px 0 0 0 #111111;
+    color: #fff;
+  }
+  .main-page main .case .chips {
+    margin-top: 0px;
+    margin-right: 8px;
+  }
+  .main-page main .case .project-preview {
+    height: 200px;
+    margin-bottom: 24px;
+  }
+  .main-page main .case .project-preview a {
+    background-size: auto 80%;
+    pointer-events: none;
+  }
+  .case-page .case .container .case-row .left {
+    width: 100%;
+  }
+  .case-page .case.research .container .case-single-row p {
+    max-width: 100%;
+  }
+  .case-page .case .container .case-row .wireframes-wrapper img {
+    width: 42%;
+    max-width: 50%;
+  }
+  .case-page .case.visual .full-w-banner {
+    flex-direction: column;
+  }
+  .case-page .case .full-w-banner.videos .left,
+  .case-page .case .full-w-banner.videos .right {
+    width: 100%;
+  }
+  .case-page .case .full-w-banner.videos .media-content {
+    max-width: 65%;
+  }
+  footer .container .wrapper .more-analyzers {
+    margin-left: 0;
+  }
+  footer .container .wrapper .more-lup {
+    margin-right: 0;
+  }
+  .case-page footer .container .wrapper .card .user-content.show-on-mobile .name {
+    padding: 12px 20px 12px 0;
+  }
+  .case-page footer .container h3 {
+    font-size: 24px;
+  }
+  .case-page header nav .container {
+    padding: 0 20px;
+  }
+  .case-page .case .container {
+    padding: 48px 20px;
+  }
+  .case-page .case-page-preview .container {
+    padding: 24px 20px;
+  }
+  .case-page footer .discover-more .container {
+    padding: 52px 20px;
+  }
+  .case-page .case-page-preview h1 {
+    font-size: 32px;
+    margin: 12px 0 8px;
+  }
+  .case-page .case .container h3 {
+    font-size: 24px;
+  }
+  .case-page .case .full-w-banner.videos .media-content {
+    max-width: 80%;
+  }
+  .case-page footer .container .wrapper .card .user-content.show-on-mobile svg.arrow {
+    top: 5px;
+  }
+  .case-page .case .container.o-r-d-l .text-only.no-margin-bottom {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main-page header .intro p {
+    max-width: 92%;
+  }
+  .main-page main .case .btn {
+    width: 100%;
+  }
+  .case-page .case .full-w-banner.videos .media-content {
+    max-width: 80%;
+  }
+  .case-page footer .container .wrapper .card .user-content.show-on-mobile .name h3 {
+    font-size: 16px;
+  }
+  footer .container .wrapper .card .name p {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

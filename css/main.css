@@ -1,0 +1,379 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import "normalize.css";
+.container {
+  max-width: 1180px;
+  padding: 0 30px;
+}
+
+header.header-main {
+  background-color: #f8f8f7;
+}
+header .navbar {
+  padding: 24px 0;
+  border-bottom: 1px solid rgba(17, 17, 17, 0.1);
+}
+header .navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navbar .logo {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 24px */
+  display: flex;
+  flex-direction: row-reverse;
+  text-transform: uppercase;
+}
+header .navbar .logo a {
+  color: #111111;
+  text-decoration: none;
+}
+header .navbar .logo::before {
+  content: " YULIA VERENICH \a";
+  white-space: pre;
+  opacity: 1;
+  font-weight: 200;
+  animation-duration: 2s;
+  animation-name: letter-animation;
+  animation-timing-function: ease-in;
+}
+@keyframes letter-animation {
+  0% {
+    opacity: 0;
+    content: " ることのできなのすべて \a";
+  }
+  4% {
+    opacity: 0;
+    content: " いタクシーートナーム \a";
+  }
+  8% {
+    content: " ーるこシとのできーな  \a";
+  }
+  12% {
+    content: " Yきなーのとすーーべて  \a";
+  }
+  16% {
+    content: " YUフォートクナーのト  \a";
+  }
+  20% {
+    content: " YUいーとターのクシー  \a";
+  }
+  24% {
+    content: " YULターのーのとすべ   \a";
+  }
+  28% {
+    content: " YULのートーべナーす   \a";
+  }
+  32% {
+    content: " YULIトナきなーのとナ  \a";
+  }
+  36% {
+    content: " YULIべのとすナーーと  \a";
+  }
+  40% {
+    content: " YULIとターのクシート  \a";
+  }
+  44% {
+    content: " YULIAーこシとのきーな  \a";
+  }
+  48% {
+    content: " YULIA ーこシのきーな \a";
+  }
+  52% {
+    content: " YULIA Vきクシートーな \a";
+  }
+  56% {
+    content: " YULIA Vのトーべナーす \a";
+  }
+  60% {
+    content: " YULIA VEシとのきーな \a";
+  }
+  64% {
+    content: " YULIA VERきのとーナ  \a";
+  }
+  68% {
+    content: " YULIA VEREすナーと  \a";
+  }
+  72% {
+    content: " YULIA VERENIクシ  \a";
+  }
+  76% {
+    content: " YULIA VERENICシ  \a";
+  }
+  80% {
+    content: " YULIA VERENICH  \a";
+  }
+  100% {
+    opacity: 1;
+    content: " YULIA VERENICH \a";
+  }
+}
+header .navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+header .navbar ul a {
+  color: #5d5d65;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 24px */
+  text-decoration: none;
+  padding-left: 32px;
+  padding: 6px 0;
+  margin: 0 20px;
+  text-shadow: none;
+  position: relative;
+}
+header .navbar ul a:active {
+  color: #111111;
+}
+header .navbar ul a::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  padding: 6px 0;
+  max-width: 0;
+  border-bottom: 2px solid #111111;
+  color: #111111;
+  content: attr(data-hover);
+  transition: max-width 0.4s;
+}
+header .navbar ul a:hover::before {
+  max-width: 100%;
+}
+header .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+header .intro {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  min-height: 460px;
+}
+header .intro h2 {
+  margin: 0;
+  padding: 0;
+  color: #111111;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 130%;
+}
+header .intro p {
+  color: #656669;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  max-width: 80%;
+}
+header .intro p .no-wrap {
+  white-space: nowrap;
+}
+header .photo {
+  padding-right: 60px;
+  /* Keyframes */
+}
+header .photo .portrait-line {
+  z-index: 2;
+  position: relative;
+  width: 332px;
+  height: 342px;
+}
+header .photo .line {
+  fill: none;
+  stroke: #656669;
+  stroke-width: 1.5;
+}
+header .photo .line.draw1 {
+  stroke-dasharray: 1951.243;
+  stroke-dashoffset: 1951.243;
+  animation: draw1 linear 2.9s forwards;
+}
+header .photo .line.draw2 {
+  stroke-dasharray: 2876.333;
+  stroke-dashoffset: 2876.333;
+  animation: draw2 linear 3.5s forwards;
+}
+header .photo .line.draw3 {
+  stroke-dasharray: 639.659;
+  stroke-dashoffset: 639.659;
+  animation: draw3 linear 1.5s forwards;
+}
+@keyframes draw1 {
+  from {
+    stroke-dashoffset: 1951.243; /* Start with the line hidden */
+  }
+  to {
+    stroke-dashoffset: 975.6215; /* Draw the first line */
+  }
+}
+@keyframes draw2 {
+  from {
+    stroke-dashoffset: 2876.333; /* Start with the line hidden */
+  }
+  to {
+    stroke-dashoffset: 1438.1665; /* Draw the first line */
+  }
+}
+@keyframes draw3 {
+  from {
+    stroke-dashoffset: 639.659; /* Start with the line hidden */
+  }
+  to {
+    stroke-dashoffset: 324.8295; /* Draw the first line */
+  }
+}
+
+.main-page .case {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+  border-bottom: 1px solid rgba(17, 17, 17, 0.1);
+}
+.main-page .case .project-intro {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 100%;
+  width: 40%;
+}
+.main-page .case h3 {
+  color: #111111;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  text-transform: uppercase;
+  margin: 0 0 12px 0;
+}
+.main-page .case p {
+  color: #656669;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0 0 12px 0;
+}
+.main-page .case .chips {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  width: 95%;
+}
+.main-page .case .chips span {
+  padding: 4px 12px;
+  border-radius: 24px;
+  margin: 0 8px 8px 0;
+  border: solid 1px #e6e6e6;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #111111;
+}
+.main-page .case .project-preview {
+  width: 52%;
+  height: 380px;
+  background-color: #f8f8f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+}
+.main-page .case .project-preview a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 77%;
+}
+.main-page .case .project-preview a.gameblyo-pv {
+  background-image: url(../img/gameblyo/gameblyo-preview.png);
+}
+.main-page .case .project-preview a.innovibe-pv {
+  background-image: url(../img/innovibe/innovibe-preview.png);
+}
+.main-page .case .project-preview a.superdeck-pv {
+  background-image: url(../img/superdeck/superdeck-preview.png);
+}
+.main-page .case .project-preview a.linckr-pv {
+  background-image: url(../img/linkr/linkr-preview.png);
+}
+.main-page .case .project-preview:hover .user-content {
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+.main-page .case .project-preview .user-content {
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.main-page .case .project-preview .overlay {
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+.main-page .case .project-preview .overlay:hover {
+  background: rgba(25, 25, 23, 0.65);
+  transition: all 0.5s ease-in-out;
+}
+.main-page .case .project-preview .arrow {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 32px;
+  top: 32px;
+}
+.main-page .case .project-preview .arrow img {
+  width: 40px;
+  height: 40px;
+}
+.main-page .case .btn {
+  border: 1px solid #111111;
+  padding: 10px 18px;
+  background: transparent;
+  transition: 0.4s;
+  margin-right: 5px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  color: #111111;
+}
+.main-page .case .btn.btn-swipe:hover {
+  box-shadow: inset 150px 0 0 0 #111111;
+  color: #fff;
+}
+
+footer .very-bottom {
+  background-color: #111;
+}
+footer .very-bottom .container {
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+footer .very-bottom .container p {
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */
