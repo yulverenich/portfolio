@@ -348,6 +348,26 @@ header .photo .line.draw3 {
   width: 40px;
   height: 40px;
 }
+.main-page .case .home-case-footer {
+  display: flex;
+  align-items: center;
+}
+.main-page .case .home-case-footer img {
+  width: 24px;
+  height: 24px;
+  margin-right: 4px;
+}
+.main-page .case .home-case-footer span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-transform: lowercase;
+  color: #656669;
+}
 .main-page .case .btn {
   border: 1px solid #111111;
   padding: 10px 18px;
@@ -359,6 +379,7 @@ header .photo .line.draw3 {
   font-weight: 400;
   text-decoration: none;
   color: #111111;
+  margin-right: 24px;
 }
 .main-page .case .btn.btn-swipe:hover {
   box-shadow: inset 150px 0 0 0 #111111;

@@ -501,7 +501,9 @@
     }
     .full-width-container {
       line-height: 0;
+
       img {
+    max-width: 1730px;
         width: 100%;
       }
     }
@@ -509,7 +511,19 @@
   &.linckr {
     .product {
       .full-width-container {
+        display: flex;
+        justify-content: center;
         background-color: $linckr-gray;
+      }
+    }
+  }
+  &.superdeck {
+    .product {
+      .full-width-container {
+        display: flex;
+        justify-content: center;
+        background: url(../img/superdeck/superdeck-bg.png);
+        background-size: cover;
       }
     }
   }

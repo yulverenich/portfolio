@@ -308,8 +308,8 @@ $bg: #f8f8f7;
           min-width: 102px;
           margin-right: 0;
           width: 200px;
-          margin-top: 24px;
           text-align: center;
+          margin-right: 24px;
         }
         .chips {
           margin-top: 12px;
@@ -328,6 +328,10 @@ $bg: #f8f8f7;
   .main-page .case .btn.btn-swipe:hover {
     box-shadow: inset 200px 0 0 0 #111111;
     color: #fff;
+  }
+  .main-page main .case .project-intro > div.home-case-footer {
+    max-width: 100%;
+    margin-top: 24px;
   }
 
   //case page + gameblyo
@@ -597,7 +601,7 @@ $bg: #f8f8f7;
         }
         .btn {
           min-width: 102px;
-          margin-top: 16px;
+          margin-right: 16px;
         }
         .project-preview {
           height: 260px;
@@ -754,7 +758,7 @@ $bg: #f8f8f7;
   }
   .case-page.gameblyo .case.overview .container .case-single-row {
     margin-bottom: 32px;
-    &.link{
+    &.link {
       margin-bottom: 8px;
       margin-top: 32px;
     }
@@ -934,6 +938,16 @@ $bg: #f8f8f7;
   }
   .case-page .case .container.o-r-d-l .text-only.no-margin-bottom {
     margin-bottom: 0;
+  }
+  .main-page main .case .project-intro > div.home-case-footer {
+    max-width: 100%;
+    margin-top: 16px;
+    flex-direction: column;
+    width: 100%;
+  }
+  .main-page main .case .btn {
+    margin-right: 0;
+    margin-bottom: 24px;
   }
 }
 

@@ -473,10 +473,19 @@
   line-height: 0;
 }
 .product-page .product .full-width-container img {
+  max-width: 1730px;
   width: 100%;
 }
 .product-page.linckr .product .full-width-container {
+  display: flex;
+  justify-content: center;
   background-color: #F7F9FD;
+}
+.product-page.superdeck .product .full-width-container {
+  display: flex;
+  justify-content: center;
+  background: url(../img/superdeck/superdeck-bg.png);
+  background-size: cover;
 }
 .product-page.innovibe .product .two-cells-row p {
   font-family: "Inter";

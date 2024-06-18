@@ -369,7 +369,26 @@ header {
         }
       }
     }
-
+    .home-case-footer {
+      display: flex;
+      align-items: center;
+      img {
+        width: 24px;
+        height: 24px;
+        margin-right: 4px;
+      }
+      span {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        display: flex;
+        align-items: center;
+        text-transform: lowercase;
+        color: #656669;
+      }
+    }
     .btn {
       border: 1px solid $text;
       padding: 10px 18px;
@@ -381,6 +400,7 @@ header {
       font-weight: 400;
       text-decoration: none;
       color: $text;
+      margin-right: 24px;
       &.btn-swipe {
         &:hover {
           box-shadow: inset 150px 0 0 0 $text;
