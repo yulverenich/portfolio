@@ -34,7 +34,7 @@ header .navbar .logo a {
   text-decoration: none;
 }
 header .navbar .logo::before {
-  content: " YULIA VERENICH \a";
+  content: " YULIA PARFENIUK \a";
   white-space: pre;
   opacity: 1;
   font-weight: 200;
@@ -49,68 +49,68 @@ header .navbar .logo::before {
   }
   4% {
     opacity: 0;
-    content: " いタクシーートナーム \a";
+    content: " いタクシーートナームと \a";
   }
   8% {
-    content: " ーるこシとのできーな  \a";
+    content: " ーるこシとのできーなク  \a";
   }
   12% {
-    content: " Yきなーのとすーーべて  \a";
+    content: " Yきなーのとすーーべてと  \a";
   }
   16% {
-    content: " YUフォートクナーのト  \a";
+    content: " YUフォートクナーのトク  \a";
   }
   20% {
-    content: " YUいーとターのクシー  \a";
+    content: " YUいーとターのクシーと  \a";
   }
   24% {
-    content: " YULターのーのとすべ   \a";
+    content: " YULターのーのとすべク   \a";
   }
   28% {
-    content: " YULのートーべナーす   \a";
+    content: " YULのートーべナーすク   \a";
   }
   32% {
-    content: " YULIトナきなーのとナ  \a";
+    content: " YULIトナきなーのとナの  \a";
   }
   36% {
-    content: " YULIべのとすナーーと  \a";
+    content: " YULIべのとすナーーとク  \a";
   }
   40% {
-    content: " YULIとターのクシート  \a";
+    content: " YULIとターのクシートの  \a";
   }
   44% {
-    content: " YULIAーこシとのきーな  \a";
+    content: " YULIAーこシとのきーなク  \a";
   }
   48% {
-    content: " YULIA ーこシのきーな \a";
+    content: " YULIA ーこシのきーなと \a";
   }
   52% {
-    content: " YULIA Vきクシートーな \a";
+    content: " YULIA Pきクシートーなの \a";
   }
   56% {
-    content: " YULIA Vのトーべナーす \a";
+    content: " YULIA PAのトーべナーすと \a";
   }
   60% {
-    content: " YULIA VEシとのきーな \a";
+    content: " YULIA PARシとのきーなの \a";
   }
   64% {
-    content: " YULIA VERきのとーナ  \a";
+    content: " YULIA PARFきのとーナと  \a";
   }
   68% {
-    content: " YULIA VEREすナーと  \a";
+    content: " YULIA PARFEすナーとの  \a";
   }
   72% {
-    content: " YULIA VERENIクシ  \a";
+    content: " YULIA PARFENクシナ  \a";
   }
   76% {
-    content: " YULIA VERENICシ  \a";
+    content: " YULIA PARFENIUシの  \a";
   }
   80% {
-    content: " YULIA VERENICH  \a";
+    content: " YULIA PARFENIUK  \a";
   }
   100% {
     opacity: 1;
-    content: " YULIA VERENICH \a";
+    content: " YULIA PARFENIUK \a";
   }
 }
 header .navbar ul {
